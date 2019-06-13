@@ -58,5 +58,5 @@ file_put_contents('./SOAPDIAN21.xml', $soapdian21->soap);
 ## Donation
 If this library help you reduce time to develop, you can give me a cup of coffee :smiley:.
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4CRKGHBJAY2SJ&source=url)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/stenfrank/1?locale.x=es_XC)
  
