@@ -3,33 +3,41 @@
 namespace Stenfrank\SoapDIAN\Traits;
 
 /**
- * Trait methods magic
+ * Trait methods magic.
  */
 trait TraitMagic
 {
     /**
-     * Attributes
+     * Attributes.
+     *
      * @var array
      */
     protected $attributes;
-    
+
     /**
-     * Set
-     * @param  any $name
-     * @param  any $value
+     * Set.
+     *
+     * @param any $name
+     * @param any $value
      */
-    public function __set($name, $value) {
+    public function __set($name, $value)
+    {
         $this->attributes[$name] = $value;
     }
-    
+
     /**
-     * Get
+     * Get.
+     *
      * @param any $name
+     *
      * @return any
      */
-    public function __get($name) {
-        if (array_key_exists($name, $this->attributes)) return $this->attributes[$name];
-        
+    public function __get($name)
+    {
+        if (array_key_exists($name, $this->attributes)) {
+            return $this->attributes[$name];
+        }
+
         return;
     }
 }

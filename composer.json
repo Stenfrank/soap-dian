@@ -14,7 +14,7 @@
         "issues": "https://github.com/Stenfrank/soap-dian/issues",
         "source": "https://github.com/Stenfrank/soap-dian"
     },
-    "license": "MIT",
+    "license": "LGPL-3.0",
     "authors": [
         {
             "name": "Stenfrank",
